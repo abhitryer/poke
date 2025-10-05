@@ -1,0 +1,83 @@
+body{
+	background-color: #bbbbbb;
+}
+
+.u_menu{
+	background-color: #fdd017;
+	height: 75px;
+	width: 99%;
+	text-align: center;
+	padding: 20px;
+}
+
+.u_element{
+	color: #4863a0;
+	font-size: 43px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+.u_button{
+	border: none;
+	margin-right: 20px;
+	color: #ffffff;
+	margin-left: 20px;
+	border-radius: 15px;
+}
+
+.h{
+	height: 30px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Arial Black", "Gadget", "sans-serif";
+}
+
+.about{
+	font-size: 30px;
+	height: 90px;
+	width: 40%;
+	margin-left: 20px;
+}
+
+.inabout{
+	display: block;
+	width: 1000px;
+	font-size: 28px;
+	margin-left: 100px;
+	font-family: "Palatini Linotype", "Book Antiqua", "sans-serif";
+}
+
+#first{
+	width: 65%;
+	margin: auto;
+	display: block;
+}
+
+#pokemonpics{
+	width: 99%;
+	background-color: #bbbbbb;
+	text-align: center;
+}
+
+.pokemonpic{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.tb{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#up{
+	text-align: center;
+}
+
+.name{
+	text-align: center;
+	font-family: "Comic Sans MS", "sans-serif";
+	font-weight: bold;
+	font-size: 32px;
+}
