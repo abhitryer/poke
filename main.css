@@ -81,3 +81,15 @@ body{
 	font-weight: bold;
 	font-size: 32px;
 }
+
+#lst{
+	font-size: 32px;
+}
+
+tr:nth-child(even) {
+  background-color: #82caff;
+}
+
+tr:nth-child(odd) {
+  background-color: #82caff;
+}
