@@ -11,6 +11,65 @@
 			<button class="u_button"><a href="battleitems.html" class="u_element">Battle Items</a></button>
 			<button class="u_button"><a href="gameplayinfo.html" class="u_element">Gameplay Info</a></button>
 			<button class="u_button"><a href="feedback.html" class="u_element">Feedback</a></button>
-		</div>
+		</div><br>
+		<form action="file:///home/imagine/swl/remote_location/remote_location_final/feedback.html" method="get">
+			<fieldset class="form">
+				<legend>Player information:</legend>
+
+				<label for="pname">Player Name:</label><br>
+				<input type="text" id="pname" name="pname" required><br><br>
+
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email" required><br><br>
+
+				<p class="nobr">Support ID:</p><br>
+				<input type="number" id="sid1" name="sid1" min="1000" max="9999" required><p class="nobr">-</p>
+				<input type="number" id="sid2" name="sid2" min="1000" max="9999" required><p class="nobr">-</p>
+				<input type="number" id="sid3" name="sid3" min="1000" max="9999" required><p class="nobr">-</p>
+				<input type="number" id="sid4" name="sid4" min="1000" max="9999" required><p class="nobr">-</p>
+				<input type="number" id="sid5" name="sid5" min="1000" max="9999" required><p class="nobr">-</p><br><br>
+
+			    <p class="nobr">How long were you playing?</p><br>
+			    <input type="radio" id="m2" name="age" value="m2" required>
+			    <label for="m2">Less than 2 months</label><br>
+			    <input type="radio" id="m2_6" name="age" value="m2_6" required>
+			    <label for="m2_6">2 to 6 months</label><br>
+   				<input type="radio" id="m6_y" name="age" value="m6_y" required>
+   				<label for="m6_y">6 months to 1 year</label><br>
+   				<input type="radio" id="y1_2" name="age" value="y1_2" required>
+   				<label for="y1_2">1 to 2 years</label><br>
+   				<input type="radio" id="y2" name="age" value="y2" required>
+   				<label for="y2">More than 2 years</label><br>
+			</fieldset><br>
+			<fieldset class="form">
+				<legend>Player feedback:</legend>
+
+			    <p class="nobr">why did you start playing?</p><br>
+			    <input type="checkbox" id="recommend" name="why" value="recommend">
+			    <label for="recommend">Recommendation from family/friends</label><br>
+			    <input type="checkbox" id="strm" name="why" value="strm">
+			    <label for="strm">Saw streamers playing the game</label><br>
+   				<input type="checkbox" id="ads" name="why" value="ads">
+   				<label for="ads">Social media advertisements</label><br>
+   				<input type="checkbox" id="play" name="why" value="play">
+   				<label for="play">Recommendation from any app store</label><br><br>
+
+			    <p class="nobr">How do you feel when playing the game?</p><br>
+			    <input type="radio" id="vg" name="how" value="vg" required>
+			    <label for="vg">Very Good</label><br>
+			    <input type="radio" id="g" name="how" value="g" required>
+			    <label for="g">Good</label><br>
+   				<input type="radio" id="n" name="how" value="n" required>
+   				<label for="n">Normal</label><br>
+   				<input type="radio" id="b" name="how" value="b" required>
+   				<label for="b">Bad</label><br>
+   				<input type="radio" id="vb" name="how" value="vb" required>
+   				<label for="vb">Very Bad</label><br><br>
+
+				<label for="fback">Feedback:</label><br>
+				<textarea id="fback" name="fback"></textarea>
+			</fieldset><br>
+			<input type="submit" id="sbmt" value="Submit">
+		</form>
 	</body>
 </html>
